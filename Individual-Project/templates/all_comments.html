@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comments section</title>
+    <h1>COMMENTS SECTION : WHAT PEOPLE ARE THINKING ABOUT SPOTIFY??</h1>
+    <div>
+        
+    </div>
+</head>
+<body>
+    
+            {%for i in comments%}
+             <h2><label>username:</label></h2><h4>{{comments[i]['username']}}</h4>
+            
+             <h2><label>Comment:</label></h2><h4>{{comments[i]['comment']}}</h4>
+                
+            
+            {%endfor%}
+
+</body>
+
+</html>
